@@ -1,0 +1,56 @@
+Terminology
+-----------
+
+image
+
+
+container
+
+
+Commands
+--------
+
+run
+
+
+ps
+
+
+images
+
+
+pull
+
+
+Parts of Docker Image name
+--------------------------
+
+123456789912.dkr.ecr.us-east-1.amazonaws.com/centos:7
+
+This is the registry URL:
+
+123456789912.dkr.ecr.us-east-1.amazonaws.com
+
+This is the name of the image:
+
+centos
+
+This is the tag:
+
+7
+
+Your tag does not have to be numeric. For example:
+
+docker.io/wordpress:php7.1-fpm-alpine
+
+
+Links
+-----
+
+Docker Toolbox: https://www.docker.com/products/docker-toolbox
+
+Docker for Mac Download: https://docs.docker.com/docker-for-mac/
+
+Docker for Windows Download: https://docs.docker.com/docker-for-windows/
+
+Docker Hub: https://hub.docker.com/
